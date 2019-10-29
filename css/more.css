@@ -4,6 +4,7 @@
   margin-left: 10px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .more__btn-list .more__btn,
@@ -12,7 +13,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  cursor: pointer;
 }
 
 .more__btn .more__btn-title {
@@ -30,21 +30,13 @@
   margin-bottom: 20px;
 }
 
-.suggestion .suggestions__title {
+.suggestion .suggestion__title {
   font-size: 12px;
   margin-top: 15px;
 }
 
 .suggestion .suggestion__icon {
-  background-color: #fce006;
-  padding: 10px;
-  display: flex;
   justify-content: center;
+  display: flex;
   align-items: center;
-  border-radius: 10px;
-}
-
-.suggestion__icon i {
-  font-size: 28px;
-  color: white;
 }

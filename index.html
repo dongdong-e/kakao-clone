@@ -4,37 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- css icon import code from FontAwesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
-    />
+    <script src="https://kit.fontawesome.com/500552d168.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
+        <span class="status-bar__clock">15:04</span>
       </div>
       <div class="status-bar__column">
         <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-volume-up"></i>
         <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
+        <span class="status-bar__battery-level">90%</span>
+        <i class="fas fa-battery-three-quarters"></i>
       </div>
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header_title">Chats</h1>
+        <h1 class="header__title">Chats</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
         <span class="header__icon">
-          <i class="far fa-comment"></i>
+          <i class="far fa-comment-dots"></i>
         </span>
         <span class="header__icon">
           <i class="fas fa-cog"></i>
@@ -43,28 +39,33 @@
     </header>
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats_chat chat">
-          <a href="chat.html">
-            <div class="chats__chat friend friend--lg">
+        <li class="chats__chat chat">
+          <a href="chat_01.html">
+            <div class="chats__chat friend">
               <div class="friend__column">
-                <img
-                  src="images/yj_profile.jpg"
-                  alt="bg_profile"
-                  class="m-avatar friend__avatar"
-                />
+                <img class="m-avatar friend__avatar" src="img/yj_kim.jpg" />
                 <div class="friend__content">
-                  <span class="friend__name">
-                    KIM YJ
-                  </span>
-                  <span class="friend__bottom_text">
-                    Going home!
-                  </span>
+                  <span class="friend__name">YOOJUNG KIM</span>
+                  <span class="friend__bottom-text">yeap!</span>
                 </div>
               </div>
               <div class="friend__column">
-                <span class="chat__timestamp">
-                  March 8
-                </span>
+                <span class="chat__timestamp">Yesterday</span>
+              </div>
+            </div>
+          </a>
+          <!--  -->
+          <a href="chat_02.html">
+            <div class="chats__chat friend">
+              <div class="friend__column">
+                <img class="m-avatar friend__avatar" src="img/sw_jo.jpg" />
+                <div class="friend__content">
+                  <span class="friend__name">SEUNGWOO JO</span>
+                  <span class="friend__bottom-text">What are u doing now~?</span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">AM 10:15</span>
               </div>
             </div>
           </a>
@@ -81,7 +82,7 @@
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
             <div class="nav__badge">8</div>
-            <i class="fas fa-comment"></i>
+            <i class="fas fa-comments"></i>
           </a>
         </li>
         <li class="nav__list-item">
@@ -97,7 +98,7 @@
       </ul>
     </nav>
     <div class="bigScreen">
-      <span class="bigScreen__text">Please Make your screen Small :)</span>
+      <span class="bigScreen__text">Please make your screen small!</span>
     </div>
   </body>
 </html>

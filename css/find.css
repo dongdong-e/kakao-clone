@@ -23,7 +23,7 @@
 }
 
 .find .header-btn__icon {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .find .find__recommended {
@@ -33,7 +33,11 @@
 }
 
 .find .find__title {
-  fond-size: 12px;
+  font-size: 12px;
   opacity: 0.7;
   margin-bottom: 20px;
+}
+
+li.find__friend.friend {
+  margin-bottom: 10px;
 }
